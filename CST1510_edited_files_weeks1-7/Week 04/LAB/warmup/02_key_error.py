@@ -1,0 +1,4 @@
+# Fixed: use .get() for an optional key, or add the key before accessing it.
+record = {"label": "R-001", "value": 87.0, "limit": 100.0}
+record["status"] = "OK"
+print(record["status"])
